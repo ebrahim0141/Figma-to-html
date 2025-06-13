@@ -79,7 +79,6 @@ body{
     font-size: 12px;
     line-height: 18px;
     margin-left: 10px;
-    margin-top: 10px;
     letter-spacing: -0.1px;
     color: #9A9EA7;
 }
@@ -106,4 +105,52 @@ body{
 }
 .HeaderButton img{
     margin-top: 3px;
+}
+.BorderRight{
+    border-right: 1px solid #EDE8E9;
+    height: 40px;
+    margin-top: 20px;
+}
+.SomeMargin{
+    margin-top: 25px;
+}
+
+
+
+
+@media all and (max-width: 767px) {
+    .section1 h1 {
+        font-size: 38px;
+    }
+    .section1p {
+        font-size: 16px;
+    }
+    .TopFooterSection {
+        height: auto;
+        padding: 20px;
+        position: static;
+        transform: none;
+        width: 100%;
+    }
+    .HeaderButton {
+        width: 95%;
+        padding: 17px 0px;
+    }
+    .form-select {
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 12px;
+        font-size: 16px;
+        box-sizing: border-box;
+        margin-top: 0px;
+    }
+    .withoutp,
+    .SomeMargin {
+        margin-top: 0px;
+    }
+    .BorderRight {
+        border: none;
+        height: auto;
+        margin-top: 0px;
+    }
 }
