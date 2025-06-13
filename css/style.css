@@ -72,3 +72,38 @@ body{
     width: 98%;
     transform: translateX(-50%);
 }
+.TopFooterSection p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.form-select{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    border: none !important;
+    margin-top: -15px;
+}
+.withoutp{
+    margin-top: 27px;
+}
+.HeaderButton{
+    background: #7963F0;
+    border-radius: 10px;
+    color: #fff;
+    padding: 7px 15px;
+    font-weight: bold;
+}
+.HeaderButton img{
+    margin-top: 3px;
+}
